@@ -13,93 +13,96 @@ import {
 
   
    let groupmenu = `
-   ✦ ───『 *group* 』─── ⚝
-  ◈ .getbio <@tag/reply>  Ⓛ
-  ◈ .animequote
-  ◈ .Setdesc <text>
-  ◈ .setname <text>
-  ◈ .add
-  ◈ .delete
-  ◈ .delwarn @user
-  ◈ .demote (@tag)
-  ◈ .infogp
-  ◈ .hidetag
-  ◈ .invite <917xxx>
-  ◈ .kick @user
-  ◈ .link
-  ◈ .poll question|option|option
-  ◈ .profile
-  ◈ .promote
-  ◈ .resetlink
-  ◈ .setbye <text>
-  ◈ .group *open/close*
-  ◈ .setwelcome <text>
-  ◈ .simulate <event> @user
-  ◈ .staff
-  ◈ .tagall
-  ◈ .totag
-  ◈ .warn @user
-  ◈ .warns
-  ◈ .main
-  ╰──────────⳹`
+   ♧ ─── ✙ *group* ✙ ─── ♧
+  ╔═══════════════─────✤
+  ║☘║.getbio <@tag/reply>  Ⓛ
+  ║☘║.animequote
+  ║☘║.Setdesc <text>
+  ║☘║.setname <text>
+  ║☘║.add
+  ║☘║.delete
+  ║☘║.delwarn @user
+  ║☘║.demote (@tag)
+  ║☘║.infogp
+  ║☘║.hidetag
+  ║☘║.invite <917xxx>
+  ║☘║.kick @user
+  ║☘║.link
+  ║☘║.poll question|option|option
+  ║☘║.profile
+  ║☘║.promote
+  ║☘║.resetlink
+  ║☘║.setbye <text>
+  ║☘║.group *open/close*
+  ║☘║.setwelcome <text>
+  ║☘║.simulate <event> @user
+  ║☘║.staff
+  ║☘║.tagall
+  ║☘║.totag
+  ║☘║.warn @user
+  ║☘║.warns
+  ║☘║.main
+  ╚══════════───────☫`
   
   let ownermenu = `
-  ✦ ───『 *owner* 』─── ⚝
-  ◈ .addprem <@tag>
-  ◈ .addowner @user
-  ◈ .allow <@tag>
-  ◈ .HEROKU
-  ◈ .ban @user
-  ◈ .banchat
-  ◈ .tx
-  ◈ .broadcastgroup <text>
-  ◈ .bcgc <text>
-  ◈ .cleartmp
-  ◈ .delexpired
-  ◈ .delprem @user
-  ◈ .removeowner @user
-  ◈ .setppbotfull
-  ◈ .getplugin <name file>
-  ◈ .getfile <name file>
-  ◈ .join <chat.whatsapp.com> <dias>
-  ◈ .reset <54xxx>
-  ◈ .resetprefix
-  ◈ .restart
-  ◈ ..setprefix
-  ◈ ..setprefix [symbol]
-  ◈ .unban @user
-  ◈ .unbanchat
-  ◈ .update
-  ◈ .config
-  ◈ .listban
-  ◈ .deleteplugin <name>
-  ╰──────────⳹`
+  ✽ ─── ⛛ *owner* ⛛ ─── ✽
+  ╔══════════════─────☬
+  ║༒╠.addprem <@tag>
+  ║༒╠.addowner @user
+  ║༒╠.allow <@tag>
+  ║༒╠.HEROKU
+  ║༒╠.ban @user
+  ║༒╠.banchat
+  ║༒╠.tx
+  ║༒╠.broadcastgroup <text>
+  ║༒╠.bcgc <text>
+  ║༒╠.cleartmp
+  ║༒╠.delexpired
+  ║༒╠.delprem @user
+  ║༒╠.removeowner @user
+  ║༒╠.setppbotfull
+  ║༒╠.getplugin <name file>
+  ║༒╠.getfile <name file>
+  ║༒╠.join <chat.whatsapp.com> <dias>
+  ║༒╠.reset <54xxx>
+  ║༒╠.resetprefix
+  ║༒╠.restart
+  ║༒╠..setprefix
+  ║༒╠..setprefix [symbol]
+  ║༒╠.unban @user
+  ║༒╠.unbanchat
+  ║༒╠.update
+  ║༒╠.config
+  ║༒╠.listban
+  ║༒╠.deleteplugin <name>
+  ╚═══════════──────☬`
   
   let funmenu = `
-  ✦ ───『 *fun* 』─── ⚝
-  ◈ .afk <reason>
-  ◈ .tomp3
-  ◈ .toav
-  ◈ .bot
-  ◈ .character @tag
-  ◈ .dare
-  ◈ .flirt
-  ◈ .gay @user
-  ◈ .pickupline
-  ◈ .question
-  ◈ .shayari
-  ◈ .ship
-  ◈ .yomamajoke
-  ◈ .truth
-  ◈ .waste @user
-  ◈ .image
-  ◈ .meme
-  ◈ .quote
-  ╰──────────⳹`
+  ☯ ─── ☩ *fun* ☩ ─── ☯
+  ╔════════════──────♞
+  ║☻╠.afk <reason>
+  ║☻╠.tomp3
+  ║☻╠.toav
+  ║☻╠.bot
+  ║☻╠.character @tag
+  ║☻╠.dare
+  ║☻╠.flirt
+  ║☻╠.gay @user
+  ║☻╠.pickupline
+  ║☻╠.question
+  ║☻╠.shayari
+  ║☻╠.ship
+  ║☻╠.yomamajoke
+  ║☻╠.truth
+  ║☻╠.waste @user
+  ║☻╠.image
+  ║☻╠.meme
+  ║☻╠.quote
+  ╚═══════════─────♞`
   
   let reactmenu = `
-  ✦ ───『 *reaction* 』─── ⚝
-  ◈ .bully @tag
+  ⚔ ─── ✾ *reaction* ✾ ─── ⚔
+  ║☮║.bully @tag
   ◈ .cuddle @tag
   ◈ .cry @tag
   ◈ .hug @tag
