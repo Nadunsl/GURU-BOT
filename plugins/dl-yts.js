@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 let handler = async (m, { conn, text }) => {
-  if (!text) throw '✳️ What do you want me to search for on YouTube?';
+  if (!text) throw '👻║ What do you want me to search for on YouTube?👻║';
 
   try {
     const query = encodeURIComponent(text);
@@ -9,17 +9,19 @@ let handler = async (m, { conn, text }) => {
     const results = response.data;
 
     if (results.length === 0) {
-      throw 'No results found for the given query.';
+      throw '😞No results found😞.';
     }
 
     const firstResult = results[0];
 
     const message = `
-乂 ${firstResult.title}
-乂 *Link* : ${firstResult.url}
-乂 *Duration* : ${firstResult.timestamp}
-乂 *Published :* ${firstResult.ago}
-乂 *Views:* ${firstResult.views}
+╔═══════════════●✤●    
+║◯║ ${firstResult.title}
+║◯║ *Link* : ${firstResult.url}
+║◯║ *Duration* : ${firstResult.timestamp}
+║◯║ *Published :* ${firstResult.ago}
+║◯║ *Views:* ${firstResult.views}
+╚═══════════════●✤●
 
     `;
 
